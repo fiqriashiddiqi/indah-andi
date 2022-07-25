@@ -618,7 +618,7 @@ jQuery(function($){
 							<div class="swiper-wrapper">
 									<?php
 								      // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
-								      $query = "SELECT * FROM tb_andi ORDER BY id ASC";
+								      $query = "SELECT * FROM t_andi ORDER BY id ASC";
 								      $result = mysqli_query($koneksi, $query);
 								      //mengecek apakah ada error ketika menjalankan query
 								      if(!$result){
